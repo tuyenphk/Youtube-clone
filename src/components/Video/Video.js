@@ -8,28 +8,13 @@ function Video() {
             <h2>Recommended</h2>
             <div className="display">
                 <VideoCard 
-                    title="5 Uses for Cloud functions"
-                    views="850K Views"
-                    timestamp="1 day ago"
-                    channelImg="https://i.ibb.co/DwfKRzx/touchicon-180.png"
-                    channel="Firebase"
-                    image="https://i.ibb.co/VgKYK69/Capture.png"
-                />
-                <VideoCard 
-                    title="The Truth about OnePlus Nord!"
-                    views="5M Views"
-                    timestamp="58 minutues ago"
-                    channelImg="https://i.ibb.co/rHM93DZ/unnamed.jpg"
-                    channel="Marques Brownlee"
-                    image="https://i.ibb.co/9NQvj68/1.png"
-                />
-                <VideoCard 
                     title="10 Street Foods UNDER $1 in Saigon, Vietnam!!! Street Food Dollar Menu 2!!"
                     views="2.6M Views"
                     timestamp="3 days ago"
                     channelImg="https://i.ibb.co/378j42C/unnamed-1.jpg"
                     channel="Best Ever Food Review Show"
                     image="https://i.ibb.co/k1NYbzT/2.png"
+                    link="https://www.youtube.com/watch?v=c_erjcMFT1M"
                 />
                 <VideoCard 
                     title="Vietnam $100 Street Food Challenge!! Best Street Food in Saigon!!!"
@@ -39,6 +24,31 @@ function Video() {
                     channel="Best Ever Food Review Show"
                     image="https://i.ibb.co/5KY6k4d/3.png"
                 />
+                 <VideoCard 
+                    title="$2 PHO vs $100 PHO - Northern VS Southern Pho!"
+                    views="7.7M Views"
+                    timestamp="15 days ago"
+                    channelImg="https://i.ibb.co/378j42C/unnamed-1.jpg"
+                    channel="Best Ever Food Review Show"
+                    image="https://i.ibb.co/tP682DF/4.png"
+                />
+                 <VideoCard 
+                    title="Best BREAKFAST in Saigon for CHEAP! Can you even call this breakfast??"
+                    views="1.6M Views"
+                    timestamp="18 days ago"
+                    channelImg="https://i.ibb.co/378j42C/unnamed-1.jpg"
+                    channel="Best Ever Food Review Show"
+                    image="https://i.ibb.co/17Q9Pkn/5.png"
+                />
+                 <VideoCard 
+                    title="CHEAP and TASTY STREET FOOD for under $1 | Vietnamese Street Food at Turtle Lake, Saigon"
+                    views="2M Views"
+                    timestamp="25 days ago"
+                    channelImg="https://i.ibb.co/378j42C/unnamed-1.jpg"
+                    channel="Best Ever Food Review Show"
+                    image="https://i.ibb.co/D1P9V3N/6.png"
+                />
+                
             </div>
         </div>
     )
