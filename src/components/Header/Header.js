@@ -21,13 +21,13 @@ function Header() {
                 </div>
             </div>
             <div className="header-center">
-                 <input type="text" />
+                 <input placeholder="Search" type="text" />
                 <SearchIcon className="header-button" />
             </div>
             <div className="header-right">
-                 <VideoCallIcon />
-                <AppsIcon />
-                <NotificationsIcon />
+                <VideoCallIcon className="header-icon" />
+                <AppsIcon className="header-icon" />
+                <NotificationsIcon className="header-icon" />
                 <Avatar alt="Tuyen Pham" src="https://i.ibb.co/YXd2tkH/39195239-1157498061055912-1711900911086862336-n.jpg" />
             </div>
         </div>

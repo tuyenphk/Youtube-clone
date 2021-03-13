@@ -2,7 +2,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fafafa;
 }
 
 .header-left {
@@ -37,4 +41,8 @@
 .header-right {
     display: flex;
     align-items: center;
+}
+
+.header-icon {
+    margin-right: 10px;
 }
