@@ -45,3 +45,18 @@ a:active {
 .videoCard-text {
     margin-left: 15px;
 }
+
+.videoCard-text > p {
+    font-size: 14px;
+    color: gray;
+}
+
+.videoCard-text > h4 {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.videoCard-avatar {
+    height: 30px !important;
+    width: 30px !important;
+}
