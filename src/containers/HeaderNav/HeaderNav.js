@@ -4,6 +4,10 @@ import './HeaderNav.scss';
 import logo from '../../assets/images/logo.jpg';
 import {Link, withRouter} from 'react-router-dom';
 import MenuIcon from '@material-ui/icons/Menu';
+import VideoCallIcon from '@material-ui/icons/VideoCall';
+import AppsIcon from '@material-ui/icons/Apps';
+import NotificationsIcon from '@material-ui/icons/Notifications';
+import Avatar from '@material-ui/core/Avatar'
 
 export class HeaderNav extends React.Component {
   constructor(props) {
@@ -44,24 +48,11 @@ export class HeaderNav extends React.Component {
             </Form>
           </Menu.Item>
           {/* 5 */}
-          <Menu.Menu position='right'>
-            <Menu.Item>
-              {/* 6 */}
-              <Icon className='header-icon' name='video camera' size='large'/>
-            </Menu.Item>
-            <Menu.Item>
-              <Icon className='header-icon' name='grid layout' size='large'/>
-            </Menu.Item>
-            <Menu.Item>
-              <Icon className='header-icon' name='chat' size='large'/>
-            </Menu.Item>
-            <Menu.Item>
-              <Icon className='header-icon' name='alarm' size='large'/>
-            </Menu.Item>
-            {/* 7*/}
-            <Menu.Item name='avatar'>
-              <Image src='https://via.placeholder.com/80x80' avatar/>
-            </Menu.Item>
+          <Menu.Menu position='right' className="header-right">
+            <VideoCallIcon className="header-icon" />
+            <AppsIcon className="header-icon" />
+            <NotificationsIcon className="header-icon" />
+            <Avatar alt="Tuyen Pham" src="https://i.ibb.co/8872Jdh/39195239-1157498061055912-1711900911086862336-n.jpg" />
           </Menu.Menu>
         </Menu.Menu>
       </Menu>
