@@ -36,7 +36,7 @@ function Header() {
                 <VideoCallIcon className="header-icon" />
                 <AppsIcon className="header-icon" />
                 <NotificationsIcon className="header-icon" />
-                <Avatar alt="Tuyen Pham" src="https://i.ibb.co/YXd2tkH/39195239-1157498061055912-1711900911086862336-n.jpg" />
+                <Avatar alt="Tuyen Pham" src="https://i.ibb.co/8872Jdh/39195239-1157498061055912-1711900911086862336-n.jpg" />
             </div>
         </div>
     )
